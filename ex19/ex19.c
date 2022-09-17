@@ -1,3 +1,16 @@
 #include <stdio.h>
 
-int main(){}
+int main(){
+    float n1, n2, n3, media;
+    scanf("%f %f %f", &n1, &n2, &n3);
+
+    media = (n1 + n2 + n3) / 3;
+
+    printf("MEDIA = %.2f\n", media);
+
+    if(media < 6){
+        printf("REPROVADO\n");
+    }else{
+        printf("APROVADO\n");
+    }
+}
