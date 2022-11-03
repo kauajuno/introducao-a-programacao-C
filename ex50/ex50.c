@@ -15,10 +15,12 @@ int main(){
     }
 
     for(int i = 1; i < num; i++){
-        if(vec[i] > vec[i - 1]){
+        if(vec[i] == vec[i - 1]){
             streak++;
         }else if(streak > highscore){
             highscore = streak;
+            streak = 1;
+        }else{
             streak = 1;
         }
     }

@@ -1,4 +1,3 @@
-"""
 import os
 
 parent_dir = "C:/Users/kauaj/Desktop/Estudos/IPfromScratch/exercícios/"
@@ -10,7 +9,7 @@ for i in range(164):
 
     os.mkdir(path)
     print("Directory '% s' created" % directory)
-"""
+
 
 for i in range(164):
     with open(f"ex{i+1}/ex{i+1}.c", mode='w') as f:
